@@ -55,4 +55,5 @@ def dnac_devices(hostname, message='In inventory'):
 
 dnac_devices('RouterWAN1')
 dnac_devices('RouterWAN2', 'Check ARGUS DB')
+dnac_devices('WLC', 'Check CPI')
 
