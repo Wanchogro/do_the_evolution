@@ -50,10 +50,11 @@ eoldevices('rt1')
 eoldevices('rt2', 'Revisar con ingenieria')
 
 
-def dnac_devices(hostname, message='In inventory'):
+def dnac_devices(hostname, message='In DNAC'):
     print ('El siguiente equipo', hostname + ':' + message)
 
 dnac_devices('RouterWAN1')
 dnac_devices('RouterWAN2', 'Check ARGUS DB')
-dnac_devices('WLC', 'Check CPI')
+dnac_devices('RouterWAN3', 'no Liveness ')
+dnac_devices('Switch', 'not categorized')
 
