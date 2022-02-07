@@ -57,6 +57,7 @@ dnac_devices('RouterWAN1')
 dnac_devices('RouterWAN2', 'Check ARGUS DB')
 dnac_devices('RouterWAN3', 'no Liveness ')
 dnac_devices('NEXUS ACI', 'Controled')
-dnac_devices('infoblox', 'not managed')
+dnac_devices('INFOBLOX', 'not managed')
 dnac_devices('Switch', 'not categorized')
 dnac_devices('WLC', 'not categorized')
+
