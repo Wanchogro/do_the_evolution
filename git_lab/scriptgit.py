@@ -60,3 +60,5 @@ dnac_devices('NEXUS ACI', 'Controled')
 dnac_devices('infoblox', 'not managed')
 dnac_devices('Switch', 'not categorized')
 dnac_devices('WLC', 'not categorized')
+dnac_devices('AP', 'not categorized')
+
