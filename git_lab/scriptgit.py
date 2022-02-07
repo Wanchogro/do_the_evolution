@@ -55,6 +55,6 @@ def dnac_devices(hostname, message='In DNAC'):
 
 dnac_devices('RouterWAN1')
 dnac_devices('RouterWAN2', 'Check ARGUS DB')
-dnac_devices('RouterWAN3', 'no liveness ')
+dnac_devices('RouterWAN3', 'no Liveness ')
 dnac_devices('Switch', 'not categorized')
 
