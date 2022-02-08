@@ -1,5 +1,8 @@
 #Platzi: Flujo de trabajo Git.
 #Chapter 4 - Functions
+from re import L
+
+
 def devnet():
     '''prints simple function'''
     print('Simple function')
